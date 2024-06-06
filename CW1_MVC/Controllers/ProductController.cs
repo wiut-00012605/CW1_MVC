@@ -9,7 +9,7 @@ namespace CW1_MVC.Controllers
     public class ProductController : Controller
     {
         // GET: Product
-        private readonly string Baseurl = "http://ec2-13-51-177-167.eu-north-1.compute.amazonaws.com/api/product";
+        private readonly string Baseurl = "http://ec2-13-51-177-167.eu-north-1.compute.amazonaws.com/";
         public async Task<ActionResult> Index()
         {
             List<Product> ProdInfo = new();
